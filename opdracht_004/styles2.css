@@ -1,0 +1,11 @@
+body{ 
+    color:rgb(156, 46, 46);
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.pSNqR0jG2SdTdTuH5msPIwHaEK%26pid%3DApi&f=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pretty_font{
+    font-family: monospace;
+    font-size: 20px;
+}
