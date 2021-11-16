@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe poster</h1>
+    </header>
+
+    <main>
+        <form data-netlify="true">
+            <p>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Name">
+            </p>
+            <p>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </p>
+            <p>
+                <label for="tel">Telephone number</label><br>
+                <input type="tel" name="tel" id="tel" placeholder="Telephone Number">
+            </p>
+            <p>
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="age" placeholder="Age">
+            </p>
+            <p>
+                <label for="birthdate">Day of birth</label><br>
+                <input type="date" name="birthdate" id="birthdate">
+            </p>
+            <p>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </p>
+            <p>
+                Favorite cuisine:<br>
+                <input type="checkbox" name="cuisine1" id="cuisine1" value="French">
+                <label for="cuisine1">French cuisine</label><br>
+                <input type="checkbox" name="cuisine2" id="cuisine2" value="Italian">
+                <label for="cuisine2">Italian cuisine</label><br>
+                <input type="checkbox" name="cuisine3" id="cuisine3" value="Spanish">
+                <label for="cuisine3">Spanish cuisine</label><br>
+                <input type="checkbox" name="cuisine4" id="cuisine4" value="Arabic">
+                <label for="cuisine4">Arabic cuisine</label><br>
+            </p>
+            <p>
+                <label for="aproncolour">Favorite Apron Colour</label><br>
+                <input type="color" name="aproncolour" id="aproncolour">
+            </p>
+            <p>
+                Biography<br>
+                <textarea rows="10" cols="50">
+
+                </textarea>
+            </p>
+            <p>
+                <label for="recipe">Upload your latest recipe</label><br>
+                <input type="file" name="recipe" id="recipe" value="Recipe">
+            </p>
+            <p>
+                <label for="recipe_url">Recipe URL</label><br>
+                <input type="url" name="recipe_url" id="recipe_url">
+            </p>
+            <p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </main>
+</body>
+
+</html>
