@@ -1,0 +1,95 @@
+body{ 
+    color:rgb(20, 11, 11);
+    background-color:cadetblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+.index_header{
+    margin: 15px 15px 20px 15px;
+    border: 2px solid red;
+    padding-bottom: 10px;
+}
+.horizontal-list li{
+    float: left;
+}
+.horizontal-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.index_h1{
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    margin: 20px 15px 15px 15px;
+
+}
+h2{
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+ol{
+    font-size: 17px;
+}
+.lijst{
+    padding: 10px 5px;
+}
+.kanagawa{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+}
+@media (min-width: 1024px){
+    body{
+        color:rgb(48, 4, 4);
+    }
+    .index_h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+        text-decoration: underline;
+        padding-left: 10px;
+    }
+    ol{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .input_name{
+        margin: 10px;
+    }
+    .input_email{
+        margin: 10px;
+    }
+    .textarea{
+        margin: 10px;
+    }
+    .submit{
+        margin: 10px;
+    }
+    .blogpost{
+        width: 20%; border: 1px solid black; 
+    }
+    .parent{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+}
